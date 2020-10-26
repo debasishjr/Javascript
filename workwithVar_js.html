@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Var & Arr_js</title>
+	</head>
+	<body>
+		<input id="ip" type="text">
+		<button id="btn">Click to alter</button>
+		<p id="h">This is some text</p>
+		<script type="text/javascript">
+			document.getElementById("btn").onclick=function(){
+			var newString;
+			newString=document.getElementById("ip").value;
+			document.getElementById("h").innerHTML=newString;
+			}
+			</script>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>IfElse_js</title>
+	</head>
+	<body>
+		<p id="h">Enter the Codeword<br></p>
+		<input id="ip" type="text"></input>
+		<button id="btn">Enter</button>
+		<script type="text/javascript">
+		document.getElementById("btn").onclick=function(){
+			var x=document.getElementById("ip").value;
+			var ipp="lipun";
+				if(x==ipp)
+				{
+					document.write("logging in");
+					<!-- alert("Your right"); -->
+				}
+				else
+				{
+					<!-- document.getElemnetById(h).innerHTML="Your wrong";	<!--or--> -->
+					<!-- document.write("Your right") -->
+					alert("Try again");
+				}
+		}
+		</script>
+	</body>
+</html>

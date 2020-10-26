@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>IfElse_js</title>
+	</head>
+	<body>
+		<p id="h">Enter a number b/w 1 to 5</p>
+		<input id="ip" type="text"></input>
+		<button id="btn">Enter</button>
+		<script type="text/javascript">
+		document.getElementById("btn").onclick=function(){
+			var x=document.getElementById("ip").value;
+			var c=Math.floor(Math.random()*6)+1;<!--random no.s from 1 to 5-->
+				if(x==c)
+				{
+					alert("Well done, you got it!!!");
+				}
+				else
+				{
+					alert("Try again, the number was "+c);
+				}
+		}
+		</script>
+	</body>
+</html>

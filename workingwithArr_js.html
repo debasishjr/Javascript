@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Var & Arr_js</title>
+	</head>
+	<body>
+		<p id="h"></p>
+		<script type="text/javascript">
+			var cars=["Mercedes ","Jaguar ","Audi "];
+			cars.push("Maseratti ","Volvo ");
+			cars.splice(1,2,"JeepCompass ","RollsRoyce ");
+	<!--Deletion pos.n(1) how many values to be deleted(2)-->
+			cars.push("Audi ");
+			cars[6]="RangeRover ";
+			document.getElementById("h").innerHTML=cars;			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Changing Element_js</title>
+	</head>	
+	<body>
+	
+		<p id="hello">Hello and Welcome</p>		
+		<button id="mybtn">appendText</button>
+		<p id="intro">This is Debasish Mishra</p>	
+		<button id="mybtn2">clickmeforRED</button>
+		
+		<script type="text/javascript">
+			 document.getElementById("mybtn").onclick=function()
+						 {document.getElementById("hello").innerHTML="Hey!!!"+"&nbsp;"+document.getElementById("hello").innerHTML+"&nbsp;"+"<h1>Thankyou</h1>"}
+		<!-- document.getElementById("mybtn2").onclick=function(){ -->
+		<!-- document.getElementById("intro").style.textDecoration="underline" -->
+			document.getElementById("mybtn2").onclick=function(){
+			document.getElementById("intro").style.color="red"
+			}
+			document.getElementById("mybtn2").onclick=function(){
+			document.getElementById("intro").style.fontSize="42px"
+			}
+		</script>
+	</body>
+</html>
